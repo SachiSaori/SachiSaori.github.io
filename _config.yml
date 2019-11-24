@@ -26,7 +26,7 @@ color:
   secondary: 2c3e50
   secondary-dark: 233140
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Sofia Levakova
   location: Location
   social: Around the Web
   credits: Credits
@@ -38,8 +38,8 @@ social:
 - title: vk
   url: https://vk.com/id403032055
 address:
-- line: 3481 Melrose Place
-- line: Beverly Hills, CA 90210
-credits: ''
+- line: 
+- line: 
+credits: 'This site working on Jekyll. Hosted by Github Pages'
 markdown: kramdown
 permalink: pretty
