@@ -1,16 +1,11 @@
 ---
-title: Project 1
-date: 2014-07-18 00:00:00 Z
-categories:
-- Bots/Scripts
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2019-04-05
 img: discord.png
 alt: image-alt
 project-date: March 2019
 client: Smarty
 category: Bot/Script
 description: "Discord Bot for game "Sid Meier's Civilization V. "
-
 ---
