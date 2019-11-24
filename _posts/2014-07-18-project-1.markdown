@@ -7,5 +7,5 @@ alt: image-alt
 project-date: March 2019
 client: Smarty
 category: Bot/Script
-description: "Discord Bot for game "Sid Meier's Civilization V. "
+description: Discord Bot for game "Sid Meier's Civilization V.
 ---
