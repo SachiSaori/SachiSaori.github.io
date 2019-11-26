@@ -43,6 +43,16 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                <li>Stars:
+                                    <div class="rating-result">
+                                        {% for star in range(post.rating) %}
+                                            <span class="active"></span>
+                                        {% endfor %}
+                                        {% for star in range(5-post.rating) %}
+                                            <span></span>
+                                        {% endfor %}
+                                    </div>
+                                </li>
                             </ul>
                             <hr class="star-primary">
                             {% if post.comment %}
