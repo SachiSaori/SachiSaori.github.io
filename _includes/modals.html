@@ -44,6 +44,11 @@
                                     </li>
                                 {% endif %}
                             </ul>
+                            <hr class="star-primary">
+                            {% if post.comment %}
+                                <h3>{{ post.client }}</h3>
+                                <p>{{ post.comment }}</p>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
