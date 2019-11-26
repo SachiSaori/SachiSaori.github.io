@@ -37,6 +37,12 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.stack %}
+                                    <li>Technology Stack:
+                                        <strong><a href="#">{{ post.stack }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
