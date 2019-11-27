@@ -45,10 +45,10 @@
                                 {% endif %}
                                 <li>Stars:
                                     <div class="rating-result">
-                                        {% for star in range(post.rating) %}
+                                        {% for star in range(post.rating.to_i) %}
                                             <span class="active"></span>
                                         {% endfor %}
-                                        {% for star in range(5-post.rating) %}
+                                        {% for star in range(5-post.rating.to_i) %}
                                             <span></span>
                                         {% endfor %}
                                     </div>
