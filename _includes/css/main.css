@@ -458,20 +458,35 @@ footer .footer-below {
 
 
 .rating-result {
-	width: 265px;
-	margin: 0 auto;
+    width: 265px;
+    margin: 0 auto;
 }
+
 .rating-result span {
-	padding: 0;
-	font-size: 40px;
-	line-height: 1;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
+    float: left;
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+    // cursor: pointer;
+    clip-path: polygon(
+            50% 0%,
+            63% 38%,
+            100% 38%,
+            69% 59%,
+            82% 100%,
+            50% 75%,
+            18% 100%,
+            31% 59%,
+            0% 38%,
+            37% 38%
+        );
+    background-color: #cccccc;
 }
-.rating-result > span:before {
-	content: '★';
-}
-.rating-result > span.active {
-	color: gold;
-	text-shadow: 1px 1px #c60;
+
+.rating-result-1 span:first-of-type,
+.rating-result-2 span:nth-of-type(-n + 2),
+.rating-result-3 span:nth-of-type(-n + 3),
+.rating-result-4 span:nth-of-type(-n + 4),
+.rating-result-5 span:nth-of-type(-n + 5) {
+    background: linear-gradient(to bottom right, #ebda1b, #f1de72);
 }
