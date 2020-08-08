@@ -45,7 +45,9 @@
                                 {% endif %}
                                 {% if post.category == "Web" %}
                                    {% if post.url %}
-                                      <a href={{ post.url }}> URL </a>
+                                      <li>Project URL: 
+                                        <strong><a href={{ post.url }}> URL</a></strong>
+                                      </li>
                                    {% endif %}
                                 {% endif %}
                             </ul>
