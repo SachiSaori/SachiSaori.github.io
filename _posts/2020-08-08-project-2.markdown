@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+date: 2020-08-08
+img: spacex.webp
+alt: SpaceX
+project-date: July 2020
+client: None
+category: Web
+description: SpaceX landing page for portfolio
+stack: HTML + CSS + JS
+url: "SachiSaori.github.io/SpaceX"
+---

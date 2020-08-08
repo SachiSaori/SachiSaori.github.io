@@ -43,6 +43,11 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.category == "Web" %}
+                                   {% if post.url %}
+                                      <a href={{ post.url }}> URL </a>
+                                   {% endif %}
+                                {% endif %}
                             </ul>
                             <hr class="star-primary">
                             {% if post.comment %}
