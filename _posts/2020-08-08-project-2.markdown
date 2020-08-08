@@ -9,5 +9,5 @@ client: None
 category: Web
 description: SpaceX landing page for portfolio
 stack: HTML + CSS + JS
-url: "SachiSaori.github.io/SpaceX"
+project_url: https://sachisaori.github.io/SpaceX/
 ---
